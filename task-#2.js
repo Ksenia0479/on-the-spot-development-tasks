@@ -9,7 +9,7 @@ function getter() {
       var src = $(this)
         .find("img")
         .attr("src");
-      srcArray.push(src);
+      imageArray.push(src);
     });
 
   return imageArray;
